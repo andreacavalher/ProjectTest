@@ -19,7 +19,10 @@ namespace ProjetctTest.Controllers
 
             return View();
         }
-
+        /// <summary>
+        /// contato
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
